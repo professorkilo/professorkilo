@@ -37,6 +37,6 @@ jobs:
           git add dark_mode.svg light_mode.svg cache/ || git add dark_mode.svg light_mode.svg
           git commit -m "Update stats SVG" || echo "No changes to commit"
 
-          # Use PAT for authentication instead of GITHUB_TOKEN
+          # Use PAT to authenticate push
           git remote set-url origin https://x-access-token:${ACCESS_TOKEN}@github.com/${{ github.repository }}.git
           git push
