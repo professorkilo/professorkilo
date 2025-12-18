@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      USER_NAME: "professorkilo"
+      USER_NAME: ${{ secrets.USER_NAME }}   # or "professorkilo"
 
     steps:
       - name: Checkout repo
