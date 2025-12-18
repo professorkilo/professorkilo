@@ -5,7 +5,7 @@ if __name__ == '__main__':
     print('Calculation times:')
 
     # Look up your user data
-    user_data, user_time = perf_counter(user_getter, professorkilo)
+    user_data, user_time = perf_counter(user_getter, USER_NAME)
     OWNER_ID, acc_date = user_data
     formatter('account data', user_time)
 
@@ -32,7 +32,7 @@ if __name__ == '__main__':
         'repos',
         ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER']
     )
-    follower_data, follower_time = perf_counter(follower_getter, professorkilo)
+    follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
 
     # Remove Andrew-specific deleted-repo archive logic
     # (no repository_archive.txt / special handling for a different user)
