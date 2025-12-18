@@ -365,13 +365,19 @@ def find_and_replace(root, element_id, new_text):
 def commit_counter(comment_size):
     """
     Counts up my total commits, using the cache file created by cache_builder.
+    If the cache file doesn't exist yet, return 0 commits.
     """
     total_commits = 0
-    filename = 'cache/'+hashlib.sha256(USER_NAME.encode('utf-8')).hexdigest()+'.txt' # Use the same filename as cache_builder
-    with open(filename, 'r') as f:
-        data = f.readlines()
-    cache_comment = data[:comment_size] # save the comment block
-    data = data[comment_size:] # remove those lines
+    filename = 'cache/' + hashlib.sha256(USER_NAME.encode('utf-8')).hexdigest() + '.txt'
+    try:
+        with open(filename, 'r') as f:
+            data = f.readlines()
+    except FileNotFoundError:
+        # First run or cache not built yet
+        return 0
+
+    cache_comment = data[:comment_size]  # not used, but kept for structure
+    data = data[comment_size:]
     for line in data:
         total_commits += int(line.split()[2])
     return total_commits
