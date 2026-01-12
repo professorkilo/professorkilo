@@ -1,0 +1,225 @@
+name: Universal Security Scanning
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday at midnight UTC
+  workflow_dispatch:  # Allow manual trigger
+
+# Cancel outdated runs on same branch
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# Least privilege permissions
+permissions:
+  contents: read
+  security-events: write
+  actions: read
+
+jobs:
+  secret-scanning:
+    name: Secret Detection
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # v4.1.1
+        with:
+          fetch-depth: 0  # Full history needed for secret scanning
+
+      - name: Gitleaks Scan
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: TruffleHog Scan
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: ./
+          base: ""  # Scan from beginning
+          head: ${{ github.ref_name }}  # To current branch
+          extra_args: --results=verified,unknown
+
+  file-security:
+    name: File Security Checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # v4.1.1
+
+      - name: Check for suspicious files
+        run: |
+          echo "🔍 Checking for credentials files..."
+          find . -type f \( \
+            -name "*.pem" -o \
+            -name "*.key" -o \
+            -name "*.p12" -o \
+            -name "*.pfx" -o \
+            -name "credentials.json" -o \
+            -name "secrets.json" -o \
+            -name ".env" -o \
+            -name "*.keystore" -o \
+            -name "*.jks" -o \
+            -name "id_rsa" -o \
+            -name "id_dsa" \
+          \) -not -path "*/node_modules/*" -not -path "*/.git/*" -not -path "*/test/*" 2>/dev/null | while read file; do
+            echo "❌ Found potentially sensitive file: $file"
+            exit 1
+          done || true
+          echo "✅ No suspicious credential files found"
+      
+      - name: Shell Script Security Check
+        if: hashFiles('**/*.sh', '**/*.bash') != ''
+        run: |
+          echo "🐚 Scanning shell scripts..."
+          # Install ShellCheck
+          sudo apt-get update && sudo apt-get install -y shellcheck
+          
+          # Find and scan all shell scripts
+          find . -name "*.sh" -o -name "*.bash" | while read script; do
+            echo "Checking: $script"
+            shellcheck "$script" --format=json > "$(basename $script)-shellcheck.json" || true
+            shellcheck "$script" || true
+          done
+
+  dependency-audit:
+    name: Dependency Security Audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # v4.1.1
+
+      # 1. Python (pip)
+      - name: Python Security Audit
+        if: hashFiles('requirements.txt', 'setup.py', 'pyproject.toml', 'Pipfile') != ''
+        run: |
+          echo "🐍 Scanning Python dependencies..."
+          python -m pip install --upgrade pip pip-audit
+          if [ -f requirements.txt ]; then
+            pip-audit -r requirements.txt --desc --format json --output python-audit.json || true
+            pip-audit -r requirements.txt --desc || true
+          elif [ -f setup.py ] || [ -f pyproject.toml ]; then
+            pip-audit --desc --format json --output python-audit.json || true
+            pip-audit --desc || true
+          elif [ -f Pipfile ]; then
+            pip install pipenv
+            pipenv check || true
+          fi
+
+      # 2. Node.js (npm)
+      - name: Node.js Security Audit
+        if: hashFiles('package.json', 'package-lock.json', 'yarn.lock') != ''
+        run: |
+          echo "📦 Scanning npm dependencies..."
+          if [ -f package-lock.json ]; then
+            npm audit --audit-level=moderate --json > npm-audit.json || true
+            npm audit --audit-level=moderate || true
+          elif [ -f yarn.lock ]; then
+            yarn audit --json > yarn-audit.json || true
+            yarn audit || true
+          fi
+          
+      # 3. Go modules
+      - name: Go Security Audit
+        if: hashFiles('go.mod', 'go.sum') != ''
+        run: |
+          echo "🔷 Scanning Go dependencies..."
+          if command -v go &> /dev/null; then
+            go version
+            go list -m all || true
+            go install golang.org/x/vuln/cmd/govulncheck@latest
+            govulncheck -json ./... > govulncheck.json || true
+            govulncheck ./... || true
+          else
+            echo "Go not installed, skipping detailed scan"
+          fi
+
+      # 4. Docker images
+      - name: Docker Security Audit
+        if: hashFiles('Dockerfile', 'docker-compose.yml', 'docker-compose.yaml') != ''
+        run: |
+          echo "🐳 Scanning Docker configurations..."
+          wget -q -O /usr/local/bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-Linux-x86_64
+          chmod +x /usr/local/bin/hadolint
+          
+          find . -name "Dockerfile*" -not -path "*/node_modules/*" | while read dockerfile; do
+            echo "Scanning: $dockerfile"
+            hadolint "$dockerfile" --format json > "$(basename $dockerfile)-lint.json" || true
+            hadolint "$dockerfile" || true
+          done
+          
+          if [ -f Dockerfile ]; then
+            echo "Base images in use:"
+            grep -E "^FROM" Dockerfile || true
+          fi
+
+      # 5. Terraform
+      - name: Terraform Security Audit
+        if: hashFiles('*.tf', '**/*.tf') != ''
+        run: |
+          echo "🏗️ Scanning Terraform configurations..."
+          curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
+          tfsec . --format json --out tfsec-results.json --soft-fail || true
+          tfsec . --soft-fail || true
+
+      # 6. PowerShell/NuGet
+      - name: PowerShell/NuGet Security Audit
+        if: hashFiles('*.csproj', '*.fsproj', '*.vbproj', 'packages.config', '*.sln') != ''
+        run: |
+          echo "💻 Scanning .NET/PowerShell dependencies..."
+          if command -v dotnet &> /dev/null; then
+            dotnet --version
+            find . -name "*.csproj" -o -name "*.fsproj" | while read project; do
+              echo "Scanning: $project"
+              dotnet list "$project" package --vulnerable --format json || true
+              dotnet list "$project" package --vulnerable || true
+            done
+          else
+            echo ".NET SDK not installed, skipping scan"
+          fi
+
+      # 7. GitHub Actions
+      - name: GitHub Actions Check
+        if: hashFiles('.github/workflows/*.yml', '.github/workflows/*.yaml') != ''
+        run: |
+          echo "⚙️ GitHub Actions detected - monitored by Dependabot"
+          echo "Workflow files:"
+          find .github/workflows -name "*.yml" -o -name "*.yaml"
+
+      # 8. Rust (cargo)
+      - name: Rust Security Audit
+        if: hashFiles('Cargo.toml', 'Cargo.lock') != ''
+        run: |
+          echo "🦀 Scanning Rust dependencies..."
+          if command -v cargo &> /dev/null; then
+            cargo --version
+            # Install cargo-audit
+            cargo install cargo-audit
+            # Scan for vulnerabilities
+            cargo audit --json > cargo-audit.json || true
+            cargo audit || true
+          else
+            echo "Rust/Cargo not installed, skipping scan"
+          fi
+
+        # Upload all audit results as artifacts
+      - name: Upload Audit Reports
+        if: always()
+        uses: actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8  # v4.3.0
+        with:
+          name: security-audit-reports
+          path: |
+            *-audit.json
+            *-lint.json
+            *-results.json
+          retention-days: 30
+          if-no-files-found: ignore

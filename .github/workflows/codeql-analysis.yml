@@ -1,0 +1,102 @@
+name: "CodeQL Security Scan"
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday at midnight UTC
+  workflow_dispatch:  # Allow manual trigger
+
+# Cancel outdated runs on same branch
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# Least privilege permissions
+permissions:
+  contents: read
+  security-events: write
+  actions: read
+
+jobs:
+  analyze:
+    name: Analyze (${{ matrix.language }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    strategy:
+      fail-fast: false
+      matrix:
+        # CodeQL supports: c-cpp, csharp, go, java-kotlin, javascript-typescript, python, ruby, swift
+        # Only runs on languages that exist in your repo
+        language: [ 'python', 'javascript-typescript', 'go', 'ruby' ]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # v4.1.1
+
+      - name: Detect if language exists
+        id: detect
+        run: |
+          # Check if source files for this language exist
+          case "${{ matrix.language }}" in
+            "go")
+              if find . -name "*.go" -not -path "./vendor/*" | grep -q .; then
+                echo "exists=true" >> $GITHUB_OUTPUT
+              else
+                echo "exists=false" >> $GITHUB_OUTPUT
+              fi
+              ;;
+            "javascript-typescript")
+              if find . -name "*.js" -o -name "*.ts" -o -name "*.jsx" -o -name "*.tsx" | grep -q .; then
+                echo "exists=true" >> $GITHUB_OUTPUT
+              else
+                echo "exists=false" >> $GITHUB_OUTPUT
+              fi
+              ;;
+            "python")
+              if find . -name "*.py" -not -path "./venv/*" -not -path "./.venv/*" | grep -q .; then
+                echo "exists=true" >> $GITHUB_OUTPUT
+              else
+                echo "exists=false" >> $GITHUB_OUTPUT
+              fi
+              ;;
+            "ruby")
+              if find . -name "*.rb" | grep -q .; then
+                echo "exists=true" >> $GITHUB_OUTPUT
+              else
+                echo "exists=false" >> $GITHUB_OUTPUT
+              fi
+              ;;
+            *)
+              echo "exists=false" >> $GITHUB_OUTPUT
+              ;;
+          esac
+
+      - name: Initialize CodeQL
+        if: steps.detect.outputs.exists == 'true'
+        uses: github/codeql-action/init@e2b3eafc8d227b0241d48be5f425d47c2d750a13  # v3.26.10
+        with:
+          languages: ${{ matrix.language }}
+          # Optional: Add custom queries
+          # queries: security-extended,security-and-quality
+
+      - name: Autobuild
+        if: steps.detect.outputs.exists == 'true'
+        uses: github/codeql-action/autobuild@e2b3eafc8d227b0241d48be5f425d47c2d750a13  # v3.26.10
+
+      - name: Perform CodeQL Analysis
+        if: steps.detect.outputs.exists == 'true'
+        uses: github/codeql-action/analyze@e2b3eafc8d227b0241d48be5f425d47c2d750a13  # v3.26.10
+        with:
+          category: "/language:${{ matrix.language }}"
+          # Upload results to Security tab
+          upload: true
+
+      - name: Skip language (not found)
+        if: steps.detect.outputs.exists == 'false'
+        run: |
+          echo "⏭️  Skipping ${{ matrix.language }} - no source files found"
+          echo "This is normal for template repositories or projects without this language."
