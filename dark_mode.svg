@@ -16,37 +16,39 @@ size-adjust: 109%;
 text, tspan {white-space: pre;}
 </style>
 <rect width="985px" height="530px" fill="#161b22" rx="15"/>
-<text x="15" y="30" fill="#c9d1d9" class="ascii">@@@@@@@@@@@@@@#@@@@@@#@@@#@@##@@@@@@@#@@@@@@@@@@@@</text>
-<text x="15" y="41" fill="#c9d1d9" class="ascii">%%%%S##S%%%%S##S%%%%S##S*:;%###%%%%%S##S%%%%S#@S%%</text>
-<text x="15" y="52" fill="#c9d1d9" class="ascii">:....*#%,....?#?....:#?%*::;##%....,%#?,...,%#*,..</text>
-<text x="15" y="63" fill="#c9d1d9" class="ascii">%?*?**?%%****?%%?****%+#@*%?%%?****?%?****?%%%?*??</text>
-<text x="15" y="74" fill="#c9d1d9" class="ascii">??+;;;,+%?**++??+;:,;++S#S****?::*???****?%*+*+***</text>
-<text x="15" y="85" fill="#c9d1d9" class="ascii">S#S**%?%#*;++?#SS*::+%%%#S*S%%%,,?SSSS%?SSS%?***??</text>
-<text x="15" y="96" fill="#c9d1d9" class="ascii">SS#@S?@##S?##%#S%#S%%%####?%??%%S##S#SSSS##%%%?%%%</text>
-<text x="15" y="107" fill="#c9d1d9" class="ascii">SSSSSSSSSS#SSS%SS%%%%#####SSS%?*?%%SSSSSSSSSSSSS%S</text>
-<text x="15" y="118" fill="#c9d1d9" class="ascii">##S#SSSSSSSSSSSS***?#@@####S%?*+::;SSSSSSSSSSSSSS#</text>
-<text x="15" y="129" fill="#c9d1d9" class="ascii">##*#S?SS??S%??S*?%%?%S#@@@#S%?+*;;+?S%::%%S?S%?%%S</text>
-<text x="15" y="140" fill="#c9d1d9" class="ascii">SS%%%%##%?%%%%S*SSS%???**???+;%#%***%%?*??S%%?*??S</text>
-<text x="15" y="151" fill="#c9d1d9" class="ascii">S%%??%%S%%??%%S*SS##%?%*+***++??*?*+?%??%?S%??*?*%</text>
-<text x="15" y="162" fill="#c9d1d9" class="ascii">S%%**%%S%S**%%%?SS@##%S?**?%*+***S?+*%*SS?%%S?+%%S</text>
-<text x="15" y="173" fill="#c9d1d9" class="ascii">S?%S%S%S?%S%S%*SS#@@#%%#?%S%?**??SS?*SS%?SS?%S%S%S</text>
-<text x="15" y="184" fill="#c9d1d9" class="ascii">S%SSSSSS%SSSS%%%%#SSS?%#%%#???+*??S%*?S?%SS%%SSSSS</text>
-<text x="15" y="195" fill="#c9d1d9" class="ascii">SSSSSSSSSSSSS%%?*%*?S?%#%%#%?S***+*++?%+?%SSSSSSSS</text>
-<text x="15" y="206" fill="#c9d1d9" class="ascii">%SS%?*?%S%S???*%*?%S%?SS%%SS*S%**+++*SS%%%??%S%%??</text>
-<text x="15" y="217" fill="#c9d1d9" class="ascii">;++;++;;*??;::;#S?##S%#SSS%S%%#%%%*?*,,;+?+;?S;+;;</text>
-<text x="15" y="228" fill="#c9d1d9" class="ascii">%*;;*%:.,..;???%#SSSSS#SSS%%S%S%S*%S?;;*;++**S;+;,</text>
-<text x="15" y="239" fill="#c9d1d9" class="ascii">@@?**S*++;;?#SSSS#%?**SSSSSSS?+*?S%%%S#S??*?%S??%?</text>
-<text x="15" y="250" fill="#c9d1d9" class="ascii">#S#S%%S%SS%*+?#@?S#SSS?%S%%%%?%?%##S##%??%#%S#SSS%</text>
-<text x="15" y="261" fill="#c9d1d9" class="ascii">#%########S%S#@S%S@@###S#SSSSSSSS#S%###SSS########</text>
-<text x="15" y="272" fill="#c9d1d9" class="ascii">@S#@#@@@@@@@@#@###@#####@@####SS%S##@@##@@@@@@@#@@</text>
-<text x="15" y="283" fill="#c9d1d9" class="ascii">@@#SS@@@@@@@######@#SS##@@@@##S%?%S#####@@####@##@</text>
-<text x="15" y="294" fill="#c9d1d9" class="ascii">#@S%%@@@@@@@##%%%%##SSS##%#@##S%??%%%%##@@@@@@@S#@</text>
-<text x="15" y="305" fill="#c9d1d9" class="ascii">@@##S@@@@@@@#S????#SSSS#S?%@@@S??%???%S#@@@@@@@#@@</text>
-<text x="15" y="316" fill="#c9d1d9" class="ascii">@@####@@####S%%??%#SSSS#%??#@@#%?%%?%%SS#####@###@</text>
-<text x="390" y="30">
+<text x="15" y="30" fill="#c9d1d9" class="ascii">
+<tspan x="15" y="30">@@@@@@@@@@@@@@#@@@@@@#@@@#@@##@@@@@@@#@@@@@@@@@@@@</tspan>
+<tspan x="15" y="43">%%%%S##S%%%%S##S%%%%S##S*:;%###%%%%%S##S%%%%S#@S%%</tspan>
+<tspan x="15" y="56">:....*#%,....?#?....:#?%*::;##%....,%#?,...,%#*,..</tspan>
+<tspan x="15" y="69">%?*?**?%%****?%%?****%+#@*%?%%?****?%?****?%%%?*??</tspan>
+<tspan x="15" y="82">??+;;;,+%?**++??+;:,;++S#S****?::*???****?%*+*+***</tspan>
+<tspan x="15" y="95">S#S**%?%#*;++?#SS*::+%%%#S*S%%%,,?SSSS%?SSS%?***??</tspan>
+<tspan x="15" y="108">SS#@S?@##S?##%#S%#S%%%####?%??%%S##S#SSSS##%%%?%%%</tspan>
+<tspan x="15" y="121">SSSSSSSSSS#SSS%SS%%%%#####SSS%?*?%%SSSSSSSSSSSSS%S</tspan>
+<tspan x="15" y="134">##S#SSSSSSSSSSSS***?#@@####S%?*+::;SSSSSSSSSSSSSS#</tspan>
+<tspan x="15" y="147">##*#S?SS??S%??S*?%%?%S#@@@#S%?+*;;+?S%::%%S?S%?%%S</tspan>
+<tspan x="15" y="160">SS%%%%##%?%%%%S*SSS%???**???+;%#%***%%?*??S%%?*??S</tspan>
+<tspan x="15" y="173">S%%??%%S%%??%%S*SS##%?%*+***++??*?*+?%??%?S%??*?*%</tspan>
+<tspan x="15" y="186">S%%**%%S%S**%%%?SS@##%S?**?%*+***S?+*%*SS?%%S?+%%S</tspan>
+<tspan x="15" y="199">S?%S%S%S?%S%S%*SS#@@#%%#?%S%?**??SS?*SS%?SS?%S%S%S</tspan>
+<tspan x="15" y="212">S%SSSSSS%SSSS%%%%#SSS?%#%%#???+*??S%*?S?%SS%%SSSSS</tspan>
+<tspan x="15" y="225">SSSSSSSSSSSSS%%?*%*?S?%#%%#%?S***+*++?%+?%SSSSSSSS</tspan>
+<tspan x="15" y="238">%SS%?*?%S%S???*%*?%S%?SS%%SS*S%**+++*SS%%%??%S%%??</tspan>
+<tspan x="15" y="251">;++;++;;*??;::;#S?##S%#SSS%S%%#%%%*?*,,;+?+;?S;+;;</tspan>
+<tspan x="15" y="264">%*;;*%:.,..;???%#SSSSS#SSS%%S%S%S*%S?;;*;++**S;+;,</tspan>
+<tspan x="15" y="277">@@?**S*++;;?#SSSS#%?**SSSSSSS?+*?S%%%S#S??*?%S??%?</tspan>
+<tspan x="15" y="290">#S#S%%S%SS%*+?#@?S#SSS?%S%%%%?%?%##S##%??%#%S#SSS%</tspan>
+<tspan x="15" y="303">#%########S%S#@S%S@@###S#SSSSSSSS#S%###SSS########</tspan>
+<tspan x="15" y="316">@S#@#@@@@@@@@#@###@#####@@####SS%S##@@##@@@@@@@#@@</tspan>
+<tspan x="15" y="329">@@#SS@@@@@@@######@#SS##@@@@##S%?%S#####@@####@##@</tspan>
+<tspan x="15" y="342">#@S%%@@@@@@@##%%%%##SSS##%#@##S%??%%%%##@@@@@@@S#@</tspan>
+<tspan x="15" y="355">@@##S@@@@@@@#S????#SSSS#S?%@@@S??%???%S#@@@@@@@#@@</tspan>
+<tspan x="15" y="368">@@####@@####S%%??%#SSSS#%??#@@#%?%%?%%SS#####@###@</tspan>
+</text>
+<text x="390" y="30" fill="#c9d1d9">
 <tspan x="390" y="30">professorkilo</tspan> -———————————————————————————————————————————-—-
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................................ </tspan><tspan class="value" text-anchor="end" x="970">Windows, macOS, iOS, Linux</tspan>
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" text-anchor="end" x="970" id="age_data">139 years, 8 months, 5 days</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ................................... </tspan><tspan class="value" text-anchor="end" x="970" id="age_data">139 years, 8 months, 4 days</tspan>
 <tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value" text-anchor="end" x="970">Super Secret INC</tspan>
 <tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value" text-anchor="end" x="970">Senior Cybersecurity Leader</tspan>
 <tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................................ </tspan><tspan class="value" text-anchor="end" x="970">VSCode, PowerShell, Xcode</tspan>
