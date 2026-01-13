@@ -581,14 +581,12 @@ if __name__ == "__main__":
     age_data, age_time = perf_counter(daily_readme, datetime.datetime(1886, 5, 8))
     formatter("age calculation", age_time)
 
-    # ENABLED: LOC counting (was disabled before)
-    total_loc, loc_time = perf_counter(
-        loc_query, ["OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"], 7
-    )
-    if total_loc[-1]:
-        formatter("LOC (cached)", loc_time)
-    else:
-        formatter("LOC (no cache)", loc_time)
+    # DISABLED: LOC counting takes too long and causes timeouts
+    # total_loc, loc_time = perf_counter(
+    #     loc_query, ["OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"], 7
+    # )
+    total_loc = [0, 0, 0, True]
+    loc_time = 0.0
 
     commit_data, commit_time = perf_counter(commit_counter, 7)
     formatter("commits", commit_time)
