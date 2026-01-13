@@ -276,7 +276,7 @@ def loc_query(
     query ($owner_affiliation: [RepositoryAffiliation],
            $login: String!, $cursor: String) {
         user(login: $login) {
-            repositories(first: 60, after: $cursor,
+            repositories(first: 30, after: $cursor,
                         ownerAffiliations: $owner_affiliation) {
                 edges {
                     node {
