@@ -16,7 +16,6 @@ size-adjust: 109%;
 text, tspan {white-space: pre;}
 </style>
 <rect width="985px" height="530px" fill="#161b22" rx="15"/>
-<text x="15" y="30" fill="#c9d1d9" class="ascii">
 <text x="15" y="30" fill="#c9d1d9" class="ascii">@@@@@@@@@@@@@@@@@@@##@@########@#@@@@@@@#@@#########@#@@@@@@@@@@@@@@@@</text>
 <text x="15" y="41" fill="#c9d1d9" class="ascii">@@@@@@@@#@@@@@@@@@@@#@@@@@@@@@#@@#S%%#@@#@@@@@@@@@@@#@@@@@@@@@@@@@@@@@</text>
 <text x="15" y="52" fill="#c9d1d9" class="ascii">******?###%******?###S******?###%?;. .+####%*******S##S?******%###?***</text>
@@ -55,7 +54,7 @@ text, tspan {white-space: pre;}
 <text x="15" y="415" fill="#c9d1d9" class="ascii">#####SS@@@@@@@@@@#S%?????##S#SSS###??#@@@#S%???%????%S##@@@@@@@@@@S@@@</text>
 <text x="15" y="426" fill="#c9d1d9" class="ascii">@@@####@@@@@@@@@##S%?????#SS#SS###%??%@@@@#%??%%???%%%S##@@@@@@@@@##@@</text>
 <text x="15" y="437" fill="#c9d1d9" class="ascii">@@@##############SS%%???%#SSSSSS##????#@@@#S??%%?%%%%%SS#############@</text>
-</text>
+<text x="390" y="30">
 <tspan x="390" y="30">professorkilo</tspan> -———————————————————————————————————————————-—-
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................................ </tspan><tspan class="value" text-anchor="end" x="970">Windows, macOS, iOS, Linux</tspan>
 <tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ................................... </tspan><tspan class="value" text-anchor="end" x="970" id="age_data">139 years, 8 months, 4 days</tspan>
