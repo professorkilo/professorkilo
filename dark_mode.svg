@@ -17,84 +17,65 @@ text, tspan {white-space: pre;}
 </style>
 <rect width="985px" height="530px" fill="#161b22" rx="15"/>
 <text x="15" y="30" fill="#c9d1d9" class="ascii">
-<tspan x="15" y="30">@@@@@@@@@@@@@@#@@@@@@#@@@#@@##@@@@@@@#@@
+<tspan x="15" y="30">@@@@@@@@@@@@@@#@@@@@@#@@@#@@##@@@@@@@#@@@@@@@@@@@@</tspan>
 <tspan x="15" y="43">%%%%S##S%%%%S##S%%%%S##S*:;%###%%%%%S##S%%%%S#@S%%</tspan>
 <tspan x="15" y="56">:....*#%,....?#?....:#?%*::;##%....,%#?,...,%#*,..</tspan>
-<tspan x="15" y="69">%?*?**?%%****?%%?****%+#@*%?%%?****?%?**
+<tspan x="15" y="69">%?*?**?%%****?%%?****%+#@*%?%%?****?%?****?%%%?*??</tspan>
 <tspan x="15" y="82">??+;;;,+%?**++??+;:,;++S#S****?::*???****?%*+*+***</tspan>
 <tspan x="15" y="95">S#S**%?%#*;++?#SS*::+%%%#S*S%%%,,?SSSS%?SSS%?***??</tspan>
 <tspan x="15" y="108">SS#@S?@##S?##%#S%#S%%%####?%??%%S##S#SSSS##%%%?%%%</tspan>
 <tspan x="15" y="121">SSSSSSSSSS#SSS%SS%%%%#####SSS%?*?%%SSSSSSSSSSSSS%S</tspan>
-<tspan x="15" y="134">##S#SSSSSSSSSSSS***?#@@####S%?*+::;SSSS
+<tspan x="15" y="134">##S#SSSSSSSSSSSS***?#@@####S%?*+::;SSSSSSSSSSSSSS#</tspan>
 <tspan x="15" y="147">##*#S?SS??S%??S*?%%?%S#@@@#S%?+*;;+?S%::%%S?S%?%%S</tspan>
-<tspan x="15" y="160">SS%%%%##%?%%%%S*SSS%???**???+;%#%***%%?
+<tspan x="15" y="160">SS%%%%##%?%%%%S*SSS%???**???+;%#%***%%?*??S%%?*??S</tspan>
 <tspan x="15" y="173">S%%??%%S%%??%%S*SS##%?%*+***++??*?*+?%??%?S%??*?*%</tspan>
-<tspan x="15" y="186">S%%**%%S%S**%%%?SS@##%S?**?%*+***S?+*%*
+<tspan x="15" y="186">S%%**%%S%S**%%%?SS@##%S?**?%*+***S?+*%*SS?%%S?+%%S</tspan>
 <tspan x="15" y="199">S?%S%S%S?%S%S%*SS#@@#%%#?%S%?**??SS?*SS%?SS?%S%S%S</tspan>
-<tspan x="15" y="212">S%SSSSSS%SSSS%%%%#SSS?%#%%#???+*??S%*?S
+<tspan x="15" y="212">S%SSSSSS%SSSS%%%%#SSS?%#%%#???+*??S%*?S?%SS%%SSSSS</tspan>
 <tspan x="15" y="225">SSSSSSSSSSSSS%%?*%*?S?%#%%#%?S***+*++?%+?%SSSSSSSS</tspan>
 <tspan x="15" y="238">%SS%?*?%S%S???*%*?%S%?SS%%SS*S%**+++*SS%%%??%S%%??</tspan>
-<tspan x="15" y="251">;++;++;;*??;::;#S?##S%#SSS%S%%#%%%*?*,,
+<tspan x="15" y="251">;++;++;;*??;::;#S?##S%#SSS%S%%#%%%*?*,,;+?+;?S;+;;</tspan>
 <tspan x="15" y="264">%*;;*%:.,..;???%#SSSSS#SSS%%S%S%S*%S?;;*;++**S;+;,</tspan>
 <tspan x="15" y="277">@@?**S*++;;?#SSSS#%?**SSSSSSS?+*?S%%%S#S??*?%S??%?</tspan>
-<tspan x="15" y="290">#S#S%%S%SS%*+?#@?S#SSS?%S%%%%?%?%##S##%
+<tspan x="15" y="290">#S#S%%S%SS%*+?#@?S#SSS?%S%%%%?%?%##S##%??%#%S#SSS%</tspan>
 <tspan x="15" y="303">#%########S%S#@S%S@@###S#SSSSSSSS#S%###SSS########</tspan>
 <tspan x="15" y="316">@S#@#@@@@@@@@#@###@#####@@####SS%S##@@##@@@@@@@#@@</tspan>
-<tspan x="15" y="329">@@#SS@@@@@@@######@#SS##@@@@##S%?%S####
+<tspan x="15" y="329">@@#SS@@@@@@@######@#SS##@@@@##S%?%S#####@@####@##@</tspan>
 <tspan x="15" y="342">#@S%%@@@@@@@##%%%%##SSS##%#@##S%??%%%%##@@@@@@@S#@</tspan>
 <tspan x="15" y="355">@@##S@@@@@@@#S????#SSSS#S?%@@@S??%???%S#@@@@@@@#@@</tspan>
-<tspan x="15" y="368">@@####@@####S%%??%#SSSS#%??#@@#%?%%?%%S
+<tspan x="15" y="368">@@####@@####S%%??%#SSSS#%??#@@#%?%%?%%SS#####@###@</tspan>
 </text>
 <text x="390" y="30" fill="#c9d1d9">
-<tspan x="390" y="30">professorkilo</tspan> -————————————————-
-<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................................ </tspan><tspan
-class="value">Windows, macOS, iOS, Linux</tspan>
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> .................................... </tspan><tspan
-class="value" id="age_data">139 years, 11 months, 5 days</tsp
+<tspan x="390" y="30">professorkilo</tspan> -———————————————————————————————————————————-—-
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................................ </tspan><tspan class="value">Windows, macOS, iOS, Linux</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value" id="age_data">139 years, 11 months, 5 days</tspan>
 <tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">Super Secret INC</tspan>
-<tspan x="390" y="110" class="cc">. </tspan><tspan class="key="cc"> ................................... </tspan><tspanclass="value">Detection &amp; Response</tspan>
-<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................................ </tspan><tspan
-class="value">VSCode, PowerShell, Windows Terminal</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">Detection &amp; Response</tspan>
+<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................................ </tspan><tspan class="value">VSCode, PowerShell, Windows Terminal</tspan>
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................................ </tspan><tspan class="value" text-anchor="end" x="970">Windows, macOS, iOS, Linux</tspan>
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key""cc" id="age_data_dots"> ...................................</tspan><tspan class="value" text-anchor="end" x="970" id="age_data">139 years, 11 months, 5 days</tspan>
-<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ................................................
-</tspan><tspan class="value" text-anchor="end" x="970">Super
-<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................................... </tspan><tspan
-class="value" text-anchor="end" x="970">Detection &amp; Respo
-<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................................ </tspan><tspan
-class="value" text-anchor="end" x="970">VSCode, PowerShell, W
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ................................... </tspan><tspan class="value" text-anchor="end" x="970" id="age_data">139 years, 8 months, 5 days</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value" text-anchor="end" x="970">Super Secret INC</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value" text-anchor="end" x="970">Detection &amp; Response</tspan>
+<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................................ </tspan><tspan class="value" text-anchor="end" x="970">VSCode, PowerShell, Windows Terminal</tspan>
 <tspan x="390" y="150" class="cc">. </tspan>
-<tspan x="390" y="170" class="cc">. </tspan><tspan class="keyass="key">Programming</tspan>:<tspan class="cc"> ...........</tspan><tspan class="value">Python, KQL, PowerShell, Bash</tspan>
-<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ..............
-</tspan><tspan class="value">HTML, CSS, JSON, SQL, XML, YAML<
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">Python, KQL, PowerShell, Bash</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">HTML, CSS, JSON, SQL, XML, YAML</tspan>
 <tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ............................................... </tspan><tspan class="value">English</tspan>
 <tspan x="390" y="230" class="cc">. </tspan>
-<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> ................
-</tspan><tspan class="value">Home Automation, Proxmox, Home L
-<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc">
-........................... </tspan><tspan class="value">3D P
+<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">Home Automation, Proxmox, Kali Linux</tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">3D Printing, Home Labbing</tspan>
 <tspan x="390" y="310">- Contact</tspan> -——————————————————————————————————————————————-—-
-<tspan x="390" y="330" class="cc">. </tspan><tspan class="key="cc"> ................................................</tspan><tspan class="value">@professorkilo</tspan>
-<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Inbox</tspan>:<tspan class="cc"> .................................................
-</tspan><tspan class="value">/dev/null</tspan>
-<tspan x="390" y="370">- Easter Eggs</tspan> -—————————————————————————————————————————-—-
-<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Comics</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">DC | Batman &gt; Spider-Man</tspan>
-<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">CVE</tspan>:<tspan class="cc"> .......................... </tspan><tspan
-class="value">Ivanti EDR Bypass [Undisclosed]</tspan>
+<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">Super Secret</tspan>
+<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">Super Secret</tspan>
+<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Work</tspan>:<tspan class="cc"> .............................................. </tspan><tspan class="value">Super Secret</tspan>
+<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ......................................................... </tspan><tspan class="value">TBD</tspan>
+<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Discord</tspan>:<tspan class="cc"> .......................................................... </tspan><tspan class="value">TBD</tspan>
 <tspan x="390" y="450">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
-<tspan x="390" y="470" class="cc">. </tspan><tspan class="key"cc"> .... </tspan><tspan class="value"id="repo_data">260</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">260</tspan>} | <tspan
-class="key">Stars</tspan>:<tspan class="cc"> ................ id="star_data">1</tspan>
-<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commmits</tspan>:<tspan class="cc"> .................................. </tspan><tspan
-class="value" id="commit_data">0</tspan> | <tspan class="key"ss="cc"> ......... </tspan><tspan class="value"id="follower_data">5</tspan>
-<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Shell</tspan>:<tspan class="cc"> ........................................ </tspan><tspan
-class="value">PowerShell, Bash</tspan>
-<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................................................ </tspan><tspan class="value" id="repo_data">250</tspan> {<tspan
-class="key">Contributed</tspan>: <tspan class="value" id="conpan class="key">Stars</tspan>:<tspan class="cc"id="star_data_dots"> .............................................................. </tspan><tspan class="value" text-anchor="end" x="970" id="star_data">1</tspan>
-<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commmits</tspan>:<tspan class="cc" id="commit_data_dots"> ........................................................... </tspan><tspan class="value" id="commit_data">0</tspan> | <tspan
-class="key">Followers</tspan>:<tspan class="cc" id="follower_......................................... </tspan><tspanclass="value" text-anchor="end" x="970" id="follower_data">5</tspan>
-</text>
-<!-- LOC IDs kept off-screen so today.py does not crash looking for them -->
-<text x="-1000" y="-1000" aria-hidden="true">
-<tspan id="loc_data_dots"></tspan><tspan id="loc_data">0</tspan><tspan id="loc_add">0</tspan><tspan id="loc_del_dots"></tspan><tspan id="loc_del">0</tspan>
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan class="value" id="repo_data">260</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">260</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value" id="star_data">1</tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commmits</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value" id="commit_data">0</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value" id="follower_data">5</tspan>
+<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value" id="loc_data">0</tspan> ( <tspan class="addColor" id="loc_add">0</tspan><tspan class="addColor">++</tspan>, <tspan class="cc"> ...... </tspan><tspan class="delColor" id="loc_del">0</tspan><tspan class="delColor">--</tspan> )
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................................................ </tspan><tspan class="value" id="repo_data">250</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">250</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> .............................................................. </tspan><tspan class="value" text-anchor="end" x="970" id="star_data">1</tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commmits</tspan>:<tspan class="cc" id="commit_data_dots"> ........................................................... </tspan><tspan class="value" id="commit_data">0</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> .......................................................... </tspan><tspan class="value" text-anchor="end" x="970" id="follower_data">5</tspan>
+<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots"> ............................................ </tspan><tspan class="value" id="loc_data">0</tspan> ( <tspan class="addColor" id="loc_add">0</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> ................................................................... </tspan><tspan class="delColor" id="loc_del">0</tspan><tspan class="delColor">--</tspan> )
 </text>
 </svg>
