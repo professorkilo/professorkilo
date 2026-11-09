@@ -1,5 +1,3 @@
-## `$ whoami`
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/professorkilo/professorkilo/main/typing.svg" alt="Typing animation" />
 </div>
