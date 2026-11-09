@@ -1,14 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas,monospace" width="985px" height="740px" font-size="16px">
-<style>
-.key {fill: #ffa657;}
-.value {fill: #a5d6ff;}
-.cc {fill: #616e7f;}
-.addColor {fill: #3fb950;}
-.delColor {fill: #f85149;}
-text, tspan {white-space: pre;}
-</style>
-<rect width="985px" height="740px" fill="#161b22" rx="15"/>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas,monospace" width="985px" height="800px" font-size="16px">
+<rect width="985px" height="800px" fill="#161b22" rx="15"/>
 <g>
 <line x1="30" y1="65" x2="960" y2="65" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="85" x2="960" y2="85" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
@@ -22,58 +14,60 @@ text, tspan {white-space: pre;}
 <line x1="30" y1="265" x2="960" y2="265" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="305" x2="960" y2="305" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="325" x2="960" y2="325" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
-<line x1="30" y1="345" x2="960" y2="345" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="385" x2="960" y2="385" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="405" x2="960" y2="405" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
-<line x1="30" y1="445" x2="960" y2="445" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="465" x2="960" y2="465" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="485" x2="960" y2="485" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="505" x2="960" y2="505" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="525" x2="960" y2="525" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
-<line x1="30" y1="565" x2="960" y2="565" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
-<line x1="30" y1="585" x2="960" y2="585" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
+<line x1="30" y1="545" x2="960" y2="545" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
+<line x1="30" y1="605" x2="960" y2="605" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="625" x2="960" y2="625" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
-<line x1="30" y1="645" x2="960" y2="645" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
-<line x1="30" y1="665" x2="960" y2="665" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="685" x2="960" y2="685" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="705" x2="960" y2="705" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 <line x1="30" y1="725" x2="960" y2="725" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
+<line x1="30" y1="745" x2="960" y2="745" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
+<line x1="30" y1="765" x2="960" y2="765" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
+<line x1="30" y1="785" x2="960" y2="785" stroke="#21262d" stroke-width="1.5" stroke-dasharray="1.5,8" stroke-linecap="round"/>
 </g>
 <text x="30" y="30" fill="#c9d1d9">
 <tspan x="30" y="30" fill="#c9d1d9">professorkilo————————————————————————————————————————————————————————</tspan>
-<tspan x="30" y="55" class="cc">. </tspan><tspan class="key">whoami</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">classified</tspan>
-<tspan x="30" y="75" class="cc">. </tspan><tspan class="key">OS</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Windows, macOS, iOS, Linux</tspan>
-<tspan x="30" y="95" class="cc">. </tspan><tspan class="key">Uptime</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="age_data">139 years, 11 months, 9 days</tspan>
-<tspan x="30" y="115" class="cc">. </tspan><tspan class="key">Host</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Undisclosed</tspan>
-<tspan x="30" y="135" class="cc">. </tspan><tspan class="key">Kernel</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Detection &amp; Response</tspan>
-<tspan x="30" y="155" class="cc">. </tspan><tspan class="key">IDE</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">VSCode, PowerShell, Windows Terminal</tspan>
-<tspan x="30" y="175" class="cc">. </tspan><tspan class="key">Shell</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">PowerShell, Bash</tspan>
-<tspan x="30" y="195" class="cc">. </tspan>
-<tspan x="30" y="215" class="cc">. </tspan><tspan class="key">Languages.Programming</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Python, KQL, PowerShell, Bash</tspan>
-<tspan x="30" y="235" class="cc">. </tspan><tspan class="key">Languages.Computer</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">HTML, CSS, JSON, SQL, XML, YAML</tspan>
-<tspan x="30" y="255" class="cc">. </tspan><tspan class="key">Languages.Real</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">English</tspan>
-<tspan x="30" y="275" class="cc">. </tspan>
-<tspan x="30" y="295" class="cc">. </tspan><tspan class="key">Hobbies.Software</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Home Automation, Proxmox, Home Lab</tspan>
-<tspan x="30" y="315" class="cc">. </tspan><tspan class="key">Hobbies.Hardware</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">3D Printing, Home Labbing</tspan>
-<tspan x="30" y="335" class="cc">. </tspan><tspan class="key">Hobbies.Entertainment</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">DC Universe | Dark Knight Trilogy</tspan>
+<tspan x="30" y="55" fill="#616e7f">. </tspan><tspan fill="#ffa657">whoami</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">classified</tspan>
+<tspan x="30" y="75" fill="#616e7f">. </tspan><tspan fill="#ffa657">OS</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Windows, macOS, iOS, Linux</tspan>
+<tspan x="30" y="95" fill="#616e7f">. </tspan><tspan fill="#ffa657">Uptime</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="age_data">139 years, 11 months, 9 days</tspan>
+<tspan x="30" y="115" fill="#616e7f">. </tspan><tspan fill="#ffa657">Host</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Undisclosed</tspan>
+<tspan x="30" y="135" fill="#616e7f">. </tspan><tspan fill="#ffa657">Kernel</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Detection &amp; Response</tspan>
+<tspan x="30" y="155" fill="#616e7f">. </tspan><tspan fill="#ffa657">IDE</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">VSCode, PowerShell, Windows Terminal</tspan>
+<tspan x="30" y="175" fill="#616e7f">. </tspan><tspan fill="#ffa657">Shell</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">PowerShell, Bash</tspan>
+<tspan x="30" y="195" fill="#616e7f">. </tspan>
+<tspan x="30" y="215" fill="#616e7f">. </tspan><tspan fill="#ffa657">Languages.Programming</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Python, KQL, PowerShell, Bash</tspan>
+<tspan x="30" y="235" fill="#616e7f">. </tspan><tspan fill="#ffa657">Languages.Computer</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">HTML, CSS, JSON, SQL, XML, YAML</tspan>
+<tspan x="30" y="255" fill="#616e7f">. </tspan><tspan fill="#ffa657">Languages.Real</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">English</tspan>
+<tspan x="30" y="275" fill="#616e7f">. </tspan>
+<tspan x="30" y="295" fill="#616e7f">. </tspan><tspan fill="#ffa657">Hobbies.Software</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Home Automation, Self-Hosting, Home Lab</tspan>
+<tspan x="30" y="315" fill="#616e7f">. </tspan><tspan fill="#ffa657">Hobbies.Hardware</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">3D Printing, Home Labbing</tspan>
+<tspan x="30" y="335" fill="#616e7f">. </tspan>
 <tspan x="30" y="355" fill="#c9d1d9">- Interests -—————————————————————————————————————————————————————————————</tspan>
-<tspan x="30" y="375" class="cc">. </tspan><tspan class="key">Interests.Security</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">AI/LLM Security | Red Teaming | ATT&amp;CK Emulation</tspan>
-<tspan x="30" y="395" class="cc">. </tspan><tspan class="key">Interests.Research</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Reverse Engineering | Malware Research | Autonomous Agents</tspan>
-<tspan x="30" y="415" fill="#c9d1d9">- Blue Team -—————————————————————————————————————————————————————————————</tspan>
-<tspan x="30" y="435" class="cc">. </tspan><tspan class="key">Focus</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Detection Engineering | Threat Hunt | IR</tspan>
-<tspan x="30" y="455" class="cc">. </tspan><tspan class="key">Trust</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Zero</tspan>
-<tspan x="30" y="475" class="cc">. </tspan><tspan class="key">sudo</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">With great responsibility</tspan>
-<tspan x="30" y="495" class="cc">. </tspan><tspan class="key">Root Cause</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">User Error</tspan>
-<tspan x="30" y="515" class="cc">. </tspan><tspan class="key">Bug.Found</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Ivanti EDR Bypass [Undisclosed]</tspan>
-<tspan x="30" y="535" fill="#c9d1d9">- Contact -———————————————————————————————————————————————————————————————</tspan>
-<tspan x="30" y="555" class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">@professorkilo</tspan>
-<tspan x="30" y="575" class="cc">. </tspan><tspan class="key">Inbox</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">/dev/null</tspan>
-<tspan x="30" y="595" fill="#c9d1d9">- GitHub Stats -——————————————————————————————————————————————————————————</tspan>
-<tspan x="30" y="615" class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="repo_data">0</tspan>
-<tspan x="30" y="635" class="cc">. </tspan><tspan class="key">Contributed</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="contrib_data">0</tspan>
-<tspan x="30" y="655" class="cc">. </tspan><tspan class="key">Stars</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="star_data">0</tspan>
-<tspan x="30" y="675" class="cc">. </tspan><tspan class="key">Commits (1yr)</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="commit_data">0</tspan>
-<tspan x="30" y="695" class="cc">. </tspan><tspan class="key">Followers</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="follower_data">0</tspan>
-<tspan x="30" y="715" class="cc">. </tspan><tspan class="key">PRs Merged</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="pr_data">0</tspan>
+<tspan x="30" y="375" fill="#616e7f">. </tspan><tspan fill="#ffa657">Interests.Security</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">AI/LLM Security | Red Teaming | ATT&amp;CK Emulation</tspan>
+<tspan x="30" y="395" fill="#616e7f">. </tspan><tspan fill="#ffa657">Interests.Research</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Reverse Engineering | Malware Research | Autonomous Agents</tspan>
+<tspan x="30" y="415" fill="#616e7f">. </tspan>
+<tspan x="30" y="435" fill="#c9d1d9">- Blue Team -—————————————————————————————————————————————————————————————</tspan>
+<tspan x="30" y="455" fill="#616e7f">. </tspan><tspan fill="#ffa657">Focus</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Detection Engineering | Threat Hunt | IR</tspan>
+<tspan x="30" y="475" fill="#616e7f">. </tspan><tspan fill="#ffa657">Trust</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Zero</tspan>
+<tspan x="30" y="495" fill="#616e7f">. </tspan><tspan fill="#ffa657">sudo</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">With great responsibility</tspan>
+<tspan x="30" y="515" fill="#616e7f">. </tspan><tspan fill="#ffa657">Root Cause</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">User Error</tspan>
+<tspan x="30" y="535" fill="#616e7f">. </tspan><tspan fill="#ffa657">Bug.Found</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Ivanti EDR Bypass [Undisclosed]</tspan>
+<tspan x="30" y="555" fill="#616e7f">. </tspan>
+<tspan x="30" y="575" fill="#c9d1d9">- Contact -———————————————————————————————————————————————————————————————</tspan>
+<tspan x="30" y="595" fill="#616e7f">. </tspan><tspan fill="#ffa657">GitHub</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">@professorkilo</tspan>
+<tspan x="30" y="615" fill="#616e7f">. </tspan><tspan fill="#ffa657">Inbox</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">/dev/null</tspan>
+<tspan x="30" y="635" fill="#616e7f">. </tspan>
+<tspan x="30" y="655" fill="#c9d1d9">- GitHub Stats -——————————————————————————————————————————————————————————</tspan>
+<tspan x="30" y="675" fill="#616e7f">. </tspan><tspan fill="#ffa657">Repos</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="repo_data">0</tspan>
+<tspan x="30" y="695" fill="#616e7f">. </tspan><tspan fill="#ffa657">Contributed</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="contrib_data">0</tspan>
+<tspan x="30" y="715" fill="#616e7f">. </tspan><tspan fill="#ffa657">Stars</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="star_data">0</tspan>
+<tspan x="30" y="735" fill="#616e7f">. </tspan><tspan fill="#ffa657">Commits (1yr)</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="commit_data">0</tspan>
+<tspan x="30" y="755" fill="#616e7f">. </tspan><tspan fill="#ffa657">Followers</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="follower_data">0</tspan>
+<tspan x="30" y="775" fill="#616e7f">. </tspan><tspan fill="#ffa657">PRs Merged</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="pr_data">0</tspan>
 </text>
 </svg>
