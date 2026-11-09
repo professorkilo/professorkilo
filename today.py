@@ -285,8 +285,12 @@ if __name__ == "__main__":
     loc_time = 0.0
     formatter("LOC (disabled)", loc_time)
 
+    _now = datetime.datetime.now(datetime.timezone.utc)
+    _year_ago = _now - datetime.timedelta(days=365)
     commit_data, commit_time = perf_counter(
-        graph_commits, acc_date, datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+        graph_commits,
+        _year_ago.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        _now.strftime("%Y-%m-%dT%H:%M:%SZ"),
     )
     formatter("commits", commit_time)
     star_data, star_time = perf_counter(graph_repos_stars, "stars", ["OWNER"])
