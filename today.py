@@ -17,6 +17,7 @@ QUERY_COUNT = {
     "recursive_loc": 0,
     "graph_commits": 0,
     "loc_query": 0,
+    "pr_counter": 0,
 }
 
 os.makedirs("cache", exist_ok=True)
@@ -155,18 +156,19 @@ def svg_overwrite(
     contrib_data,
     follower_data,
     loc_data,
+    pr_data=0,
 ):
     """Parse SVG files and update elements with stats"""
     tree = etree.parse(filename)
     root = tree.getroot()
 
-    # Update text values
     find_and_replace(root, "age_data", age_data)
     find_and_replace(root, "commit_data", commit_data)
     find_and_replace(root, "star_data", star_data)
     find_and_replace(root, "repo_data", repo_data)
     find_and_replace(root, "contrib_data", contrib_data)
     find_and_replace(root, "follower_data", follower_data)
+    find_and_replace(root, "pr_data", pr_data)
     find_and_replace(root, "loc_data", loc_data[2])
     find_and_replace(root, "loc_add", loc_data[0])
     find_and_replace(root, "loc_del", loc_data[1])
@@ -239,6 +241,22 @@ def follower_getter(username):
     return int(request.json()["data"]["user"]["followers"]["totalCount"])
 
 
+def pr_counter(username):
+    """Returns the total number of merged pull requests by the user."""
+    query_count("pr_counter")
+    query = """
+    query($login: String!) {
+        user(login: $login) {
+            pullRequests(states: [MERGED]) {
+                totalCount
+            }
+        }
+    }
+    """
+    request = simple_request(pr_counter.__name__, query, {"login": username})
+    return int(request.json()["data"]["user"]["pullRequests"]["totalCount"])
+
+
 def query_count(funct_id):
     """Counts how many times the GitHub GraphQL API is called"""
     QUERY_COUNT[funct_id] += 1
@@ -305,6 +323,8 @@ if __name__ == "__main__":
     formatter("contributed repos", contrib_time)
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
     formatter("followers", follower_time)
+    pr_data, pr_time = perf_counter(pr_counter, USER_NAME)
+    formatter("pull requests", pr_time)
 
     svg_overwrite(
         "dark_mode.svg",
@@ -315,6 +335,7 @@ if __name__ == "__main__":
         contrib_data,
         follower_data,
         total_loc,
+        pr_data=pr_data,
     )
 
     svg_overwrite(
@@ -326,6 +347,7 @@ if __name__ == "__main__":
         contrib_data,
         follower_data,
         total_loc,
+        pr_data=pr_data,
     )
 
     total_time = (
@@ -337,13 +359,14 @@ if __name__ == "__main__":
         + repo_time
         + contrib_time
         + follower_time
+        + pr_time
     )
     print(
-        "\033[F" * 8,
+        "\033[F" * 9,
         "{:<21}".format("Total function time:"),
         "{:>11}".format("%.4f" % total_time),
         " s ",
-        "\033[E" * 8,
+        "\033[E" * 9,
         sep="",
     )
 
