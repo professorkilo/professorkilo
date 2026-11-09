@@ -32,10 +32,17 @@ jobs:
           USER_NAME: professorkilo
         run: python today.py
 
+      - name: Cache typing animation SVG
+        run: |
+          curl -s --fail \
+            "https://readme-typing-svg.demolab.com?font=Consolas&size=16&pause=2500&color=58A6FF&background=00000000&center=true&vCenter=true&random=false&width=760&lines=Have+you+tried+turning+the+nation+state+off+and+on+again%3F;Advanced.+Persistent.+Tired.;They+have+a+0-day.+I+have+an+alert.+This+should+be+interesting.;Their+C2+is+encrypted.+My+patience+is+not.;Containment%3A+achieved.+Sleep%3A+pending." \
+            -o typing.svg \
+            || echo "Warning: typing SVG fetch failed, skipping"
+
       - name: Commit updated SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dark_mode.svg light_mode.svg || echo "No SVG changes to add"
+          git add dark_mode.svg light_mode.svg typing.svg || echo "No SVG changes to add"
           git diff --staged --quiet || git commit -m "Update stats SVG"
           git push origin HEAD:main
