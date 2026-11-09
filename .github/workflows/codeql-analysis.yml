@@ -85,7 +85,7 @@ jobs:
 
       - name: Autobuild
         if: steps.detect.outputs.exists == 'true'
-        uses: github/codeql-action/autobuild@e2b3eafc8d227b0241d48be5f425d47c2d750a13  # v3.26.10
+        uses: github/codeql-action/autobuild@33d7b85da1a04171e211befe2c739303b9a4c066  # v4.39.3
 
       - name: Perform CodeQL Analysis
         if: steps.detect.outputs.exists == 'true'
