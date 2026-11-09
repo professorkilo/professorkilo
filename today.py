@@ -141,7 +141,8 @@ def stars_counter(data):
     """Count total stars in repositories owned by me"""
     total_stars = 0
     for node in data:
-        total_stars += node["node"]["stargazers"]["totalCount"]
+        if node["node"] is not None:
+            total_stars += node["node"]["stargazers"]["totalCount"]
     return total_stars
 
 
@@ -284,7 +285,9 @@ if __name__ == "__main__":
     loc_time = 0.0
     formatter("LOC (disabled)", loc_time)
 
-    commit_data, commit_time = perf_counter(commit_counter, 7)
+    commit_data, commit_time = perf_counter(
+        graph_commits, acc_date, datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+    )
     formatter("commits", commit_time)
     star_data, star_time = perf_counter(graph_repos_stars, "stars", ["OWNER"])
     formatter("stars", star_time)
