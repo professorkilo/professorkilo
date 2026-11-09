@@ -12,7 +12,7 @@ text, tspan {white-space: pre;}
 <text x="30" y="30" fill="#c9d1d9">
 <tspan x="30" y="30" fill="#c9d1d9">professorkilo————————————————————————————————————————————————————————</tspan>
 <tspan x="30" y="55" class="cc">. </tspan><tspan class="key">OS</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Windows, macOS, iOS, Linux</tspan>
-<tspan x="30" y="75" class="cc">. </tspan><tspan class="key">Uptime</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="age_data">139 years, 11 months, 9 days</tspan>
+<tspan x="30" y="75" class="cc">. </tspan><tspan class="key">Uptime</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="age_data">140 years, 6 months, 1 day</tspan>
 <tspan x="30" y="95" class="cc">. </tspan><tspan class="key">Host</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Undisclosed</tspan>
 <tspan x="30" y="115" class="cc">. </tspan><tspan class="key">Kernel</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Detection &amp; Response</tspan>
 <tspan x="30" y="135" class="cc">. </tspan><tspan class="key">IDE</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">VSCode, PowerShell, Windows Terminal</tspan>
@@ -40,11 +40,11 @@ text, tspan {white-space: pre;}
 <tspan x="30" y="615" class="cc">. </tspan><tspan class="key">CVE</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">Ivanti EDR Bypass [Undisclosed]</tspan>
 <tspan x="30" y="635" class="cc">. </tspan><tspan class="key">whoami</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value">classified</tspan>
 <tspan x="30" y="665" fill="#c9d1d9">- GitHub Stats -——————————————————————————————————————————————————————————</tspan>
-<tspan x="30" y="685" class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="repo_data">0</tspan>
-<tspan x="30" y="705" class="cc">. </tspan><tspan class="key">Contributed</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="contrib_data">0</tspan>
+<tspan x="30" y="685" class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="repo_data">262</tspan>
+<tspan x="30" y="705" class="cc">. </tspan><tspan class="key">Contributed</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="contrib_data">262</tspan>
 <tspan x="30" y="725" class="cc">. </tspan><tspan class="key">Stars</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="star_data">0</tspan>
-<tspan x="30" y="745" class="cc">. </tspan><tspan class="key">Commits (1yr)</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="commit_data">0</tspan>
-<tspan x="30" y="765" class="cc">. </tspan><tspan class="key">Followers</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="follower_data">0</tspan>
+<tspan x="30" y="745" class="cc">. </tspan><tspan class="key">Commits (1yr)</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="commit_data">114</tspan>
+<tspan x="30" y="765" class="cc">. </tspan><tspan class="key">Followers</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="follower_data">7</tspan>
 <tspan x="30" y="785" class="cc">. </tspan><tspan class="key">PRs Merged</tspan><tspan class="cc">: </tspan><tspan text-anchor="end" x="960" class="value" id="pr_data">0</tspan>
 </text>
 </svg>
