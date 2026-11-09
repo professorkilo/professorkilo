@@ -34,7 +34,7 @@
 <tspan x="30" y="30" fill="#24292f">professorkilo————————————————————————————————————————————————————————</tspan>
 <tspan x="30" y="55" fill="#57606a">. </tspan><tspan fill="#953800">whoami</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da">classified</tspan>
 <tspan x="30" y="75" fill="#57606a">. </tspan><tspan fill="#953800">OS</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da">Windows, macOS, iOS, Linux</tspan>
-<tspan x="30" y="95" fill="#57606a">. </tspan><tspan fill="#953800">Uptime</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="age_data">139 years, 11 months, 9 days</tspan>
+<tspan x="30" y="95" fill="#57606a">. </tspan><tspan fill="#953800">Uptime</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="age_data">140 years, 6 months, 1 day</tspan>
 <tspan x="30" y="115" fill="#57606a">. </tspan><tspan fill="#953800">Host</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da">Undisclosed</tspan>
 <tspan x="30" y="135" fill="#57606a">. </tspan><tspan fill="#953800">Kernel</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da">Detection &amp; Response</tspan>
 <tspan x="30" y="155" fill="#57606a">. </tspan><tspan fill="#953800">IDE</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da">VSCode, PowerShell, Windows Terminal</tspan>
@@ -64,10 +64,10 @@
 <tspan x="30" y="635" fill="#57606a">. </tspan><tspan fill="#953800">Inbox</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da">/dev/null</tspan>
 <tspan x="30" y="655" fill="#57606a">. </tspan>
 <tspan x="30" y="675" fill="#24292f">- GitHub Stats -——————————————————————————————————————————————————————————</tspan>
-<tspan x="30" y="695" fill="#57606a">. </tspan><tspan fill="#953800">Repos</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="repo_data">0</tspan>
-<tspan x="30" y="715" fill="#57606a">. </tspan><tspan fill="#953800">Contributed</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="contrib_data">0</tspan>
+<tspan x="30" y="695" fill="#57606a">. </tspan><tspan fill="#953800">Repos</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="repo_data">272</tspan>
+<tspan x="30" y="715" fill="#57606a">. </tspan><tspan fill="#953800">Contributed</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="contrib_data">272</tspan>
 <tspan x="30" y="735" fill="#57606a">. </tspan><tspan fill="#953800">Stars</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="star_data">0</tspan>
-<tspan x="30" y="755" fill="#57606a">. </tspan><tspan fill="#953800">Commits (1yr)</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="commit_data">0</tspan>
+<tspan x="30" y="755" fill="#57606a">. </tspan><tspan fill="#953800">Commits (1yr)</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="commit_data">196</tspan>
 <tspan x="30" y="775" fill="#57606a">. </tspan><tspan fill="#953800">PRs Merged</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="pr_data">0</tspan>
 </text>
 </svg>
