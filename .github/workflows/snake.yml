@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: Platane/snk/action-push-to-branch@d8f6715049803e982ee5ff501b6b9b7d5deeb09b  # v3
+      - uses: Platane/snk/action-push-to-branch@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           branch: output
