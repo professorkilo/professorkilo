@@ -34,7 +34,7 @@
 <tspan x="30" y="30" fill="#c9d1d9">professorkilo————————————————————————————————————————————————————————</tspan>
 <tspan x="30" y="55" fill="#616e7f">. </tspan><tspan fill="#ffa657">whoami</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">classified</tspan>
 <tspan x="30" y="75" fill="#616e7f">. </tspan><tspan fill="#ffa657">OS</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Windows, macOS, iOS, Linux</tspan>
-<tspan x="30" y="95" fill="#616e7f">. </tspan><tspan fill="#ffa657">Uptime</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="age_data">140 years, 6 months, 1 day</tspan>
+<tspan x="30" y="95" fill="#616e7f">. </tspan><tspan fill="#ffa657">Uptime</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="age_data">139 years, 11 months, 9 days</tspan>
 <tspan x="30" y="115" fill="#616e7f">. </tspan><tspan fill="#ffa657">Host</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Undisclosed</tspan>
 <tspan x="30" y="135" fill="#616e7f">. </tspan><tspan fill="#ffa657">Kernel</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Detection &amp; Response</tspan>
 <tspan x="30" y="155" fill="#616e7f">. </tspan><tspan fill="#ffa657">IDE</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">VSCode, PowerShell, Windows Terminal</tspan>
@@ -45,29 +45,29 @@
 <tspan x="30" y="255" fill="#616e7f">. </tspan><tspan fill="#ffa657">Languages.Real</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">English</tspan>
 <tspan x="30" y="275" fill="#616e7f">. </tspan>
 <tspan x="30" y="295" fill="#616e7f">. </tspan><tspan fill="#ffa657">Hobbies.Software</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Home Automation, Self-Hosting</tspan>
-<tspan x="30" y="315" fill="#616e7f">. </tspan><tspan fill="#ffa657">Hobbies.Hardware</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">3D Printing, Servers, Networking</tspan>
+<tspan x="30" y="315" fill="#616e7f">. </tspan><tspan fill="#ffa657">Hobbies.Hardware</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">3D Printing, Wardriving, Networking</tspan>
 <tspan x="30" y="335" fill="#616e7f">. </tspan><tspan fill="#ffa657">Hobbies.Outdoors</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">🚵 Mountain Biking | ⛺ Camping</tspan>
 <tspan x="30" y="355" fill="#616e7f">. </tspan>
 <tspan x="30" y="375" fill="#c9d1d9">- Interests -—————————————————————————————————————————————————————————————</tspan>
 <tspan x="30" y="395" fill="#616e7f">. </tspan><tspan fill="#ffa657">Interests.Security</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">AI/LLM Security | Red Teaming | ATT&amp;CK Emulation</tspan>
-<tspan x="30" y="415" fill="#616e7f">. </tspan><tspan fill="#ffa657">Interests.Research</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Reverse Engineering | Malware Research | Autonomous Agents</tspan>
+<tspan x="30" y="415" fill="#616e7f">. </tspan><tspan fill="#ffa657">Interests.Research</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Threat Intelligence | Malware Research | Autonomous Agents</tspan>
 <tspan x="30" y="435" fill="#616e7f">. </tspan>
 <tspan x="30" y="455" fill="#c9d1d9">- Blue Team -—————————————————————————————————————————————————————————————</tspan>
 <tspan x="30" y="475" fill="#616e7f">. </tspan><tspan fill="#ffa657">Focus</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Detection Engineering | Threat Hunt | IR</tspan>
 <tspan x="30" y="495" fill="#616e7f">. </tspan><tspan fill="#ffa657">Trust</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Zero</tspan>
 <tspan x="30" y="515" fill="#616e7f">. </tspan><tspan fill="#ffa657">sudo</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">With great responsibility</tspan>
 <tspan x="30" y="535" fill="#616e7f">. </tspan><tspan fill="#ffa657">Root Cause</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">User Error</tspan>
-<tspan x="30" y="555" fill="#616e7f">. </tspan><tspan fill="#ffa657">Bug.Found</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">Ivanti EDR Bypass [Undisclosed]</tspan>
+<tspan x="30" y="555" fill="#616e7f">. </tspan><tspan fill="#ffa657">Bug.Found</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">LANDesk EDR Bypass [Undisclosed]</tspan>
 <tspan x="30" y="575" fill="#616e7f">. </tspan>
 <tspan x="30" y="595" fill="#c9d1d9">- Contact -———————————————————————————————————————————————————————————————</tspan>
 <tspan x="30" y="615" fill="#616e7f">. </tspan><tspan fill="#ffa657">GitHub</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">@professorkilo</tspan>
 <tspan x="30" y="635" fill="#616e7f">. </tspan><tspan fill="#ffa657">Inbox</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff">/dev/null</tspan>
 <tspan x="30" y="655" fill="#616e7f">. </tspan>
 <tspan x="30" y="675" fill="#c9d1d9">- GitHub Stats -——————————————————————————————————————————————————————————</tspan>
-<tspan x="30" y="695" fill="#616e7f">. </tspan><tspan fill="#ffa657">Repos</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="repo_data">272</tspan>
-<tspan x="30" y="715" fill="#616e7f">. </tspan><tspan fill="#ffa657">Contributed</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="contrib_data">272</tspan>
+<tspan x="30" y="695" fill="#616e7f">. </tspan><tspan fill="#ffa657">Repos</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="repo_data">0</tspan>
+<tspan x="30" y="715" fill="#616e7f">. </tspan><tspan fill="#ffa657">Contributed</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="contrib_data">0</tspan>
 <tspan x="30" y="735" fill="#616e7f">. </tspan><tspan fill="#ffa657">Stars</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="star_data">0</tspan>
-<tspan x="30" y="755" fill="#616e7f">. </tspan><tspan fill="#ffa657">Commits (1yr)</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="commit_data">129</tspan>
+<tspan x="30" y="755" fill="#616e7f">. </tspan><tspan fill="#ffa657">Commits (1yr)</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="commit_data">0</tspan>
 <tspan x="30" y="775" fill="#616e7f">. </tspan><tspan fill="#ffa657">PRs Merged</tspan><tspan fill="#616e7f">: </tspan><tspan text-anchor="end" x="960" fill="#a5d6ff" id="pr_data">0</tspan>
 </text>
 </svg>
