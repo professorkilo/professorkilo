@@ -34,7 +34,7 @@
 <tspan x="30" y="30" fill="#24292f">professorkilo————————————————————————————————————————————————————————</tspan>
 <tspan x="30" y="55" fill="#57606a">. </tspan><tspan fill="#953800">whoami</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da">classified</tspan>
 <tspan x="30" y="75" fill="#57606a">. </tspan><tspan fill="#953800">OS</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da">Windows, macOS, iOS, Linux</tspan>
-<tspan x="30" y="95" fill="#57606a">. </tspan><tspan fill="#953800">Uptime</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="age_data">140 years, 6 months, 5 days</tspan>
+<tspan x="30" y="95" fill="#57606a">. </tspan><tspan fill="#953800">Uptime</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da" id="age_data">140 years, 6 months, 6 days</tspan>
 <tspan x="30" y="115" fill="#57606a">. </tspan><tspan fill="#953800">Host</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da">Undisclosed</tspan>
 <tspan x="30" y="135" fill="#57606a">. </tspan><tspan fill="#953800">Kernel</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da">Detection &amp; Response</tspan>
 <tspan x="30" y="155" fill="#57606a">. </tspan><tspan fill="#953800">IDE</tspan><tspan fill="#57606a">: </tspan><tspan text-anchor="end" x="960" fill="#0969da">VSCode, PowerShell, Windows Terminal</tspan>
